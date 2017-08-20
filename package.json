@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-toolkit",
+  "version": "1.0.0",
+  "description": "## Installation",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "./node_modules/gitbook-cli/bin/gitbook.js build ./book doc && ./node_modules/http-server/bin/http-server ./doc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foliejs/gitbook-tookit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foliejs/gitbook-tookit/issues"
+  },
+  "homepage": "https://github.com/foliejs/gitbook-tookit#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "http-server": "^0.10.0"
+  }
+}
