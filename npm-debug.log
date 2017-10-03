@@ -17,7 +17,7 @@
 4 verbose stack     at tryToString (fs.js:455:3)
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:442:12)
 5 verbose cwd /Users/tangjiacheng/data/gitbook/gitbook
-6 error Darwin 16.7.0
+6 error Darwin 17.0.0
 7 error argv "/usr/local/Cellar/node/8.1.0_1/bin/node" "/usr/local/bin/npm" "run" "doc"
 8 error node v6.10.0
 9 error npm  v3.10.10
